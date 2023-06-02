@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #494d5f;
+   /* font-family: 'Gloria Hallelujah', cursive; */
+   
+}
+.main{
+    background-color: #494d5f(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    height: 900px;
+    align-items: center;
+
+}
+.container{
+    background-color: #000000;
+    height: 605px;
+    width: 400px;
+    border: solid black 3px;
+    border-radius: 8px;
+    
+}
+.display{
+    height: 150px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 0px;
+    border: solid rgb(0, 0, 0) 3px;
+    font-size: 40px;
+    background-color: #ededed;
+}
+.line{
+    display: flex;
+    height: 90px; 
+    margin-top: 10p;
+}
+.line button{
+
+width: 100px;
+border-radius: 8%;
+text-decoration: none;
+border: none;
+}
+.lineone{
+    display: flex;
+    height: 90px;
+   
+   
+}
+.lineone button{
+
+ width: 100px;
+border-radius: 8%;
+text-decoration: none;
+border: none;
+
+
+}
+.linetwo{
+    display: flex;
+    height: 90px;
+    
+    margin-top: 10p;
+   
+}
+.linetwo button{
+    width: 100px;
+    border-radius: 8%;
+    text-decoration: none;
+    border: none;
+}
+.linethree{
+    display: flex;
+    height: 90px;
+    
+    margin-top: 10p;
+   
+}
+.linethree button{
+    width: 100px;
+    border-radius: 8%;
+    text-decoration: none;
+    border: none;
+}
+.linefour{
+    display: flex;
+    height: 90px;
+    
+   margin-top: 10p;
+}
+.linefour button{
+    width: 100px;
+    border-radius: 8%;
+    text-decoration: none;
+    border: none;
+}
+.linefive{
+    display: flex;
+    height: 90px;
+    
+    margin-top: 10p;
+   
+}
+.linefive button{
+    width: 100px;
+    border-radius: 8%;
+    text-decoration: none;
+    border: none;
+}
+.container button{
+    background-color: #ededed;
+    font-size: 30px;
+    border: solid black 3px;
+    cursor: pointer;
+    
+    
+}
+.container button:hover{
+    background-color: #ffffff;
+}
+
+.text{
+    font-size: 30px;
+    display: flex;
+}
+.result{
+    margin-top: 70px;
+    font-size: 30px;
+    margin-right: -40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#equal{
+    width: 200px;
+}
